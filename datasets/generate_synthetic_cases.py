@@ -14,6 +14,8 @@ Uso:
         --saida dataset_experimental.csv --repeticoes 0.15
 """
 
+from __future__ import annotations
+
 import argparse
 import random
 import string

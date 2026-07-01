@@ -14,6 +14,8 @@ a mesma interface -- troque MockDataSource por ela na amostra pequena e
 controlada (Conjunto E do plano), sem mudar o orquestrador.
 """
 
+from __future__ import annotations
+
 import random
 import time
 from abc import ABC, abstractmethod

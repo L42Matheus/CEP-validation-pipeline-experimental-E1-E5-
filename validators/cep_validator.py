@@ -6,6 +6,8 @@ v2 (Secao 3). Roda ANTES de qualquer chamada externa -- e essa reducao de
 chamadas que responde a QP1 do paper.
 """
 
+from __future__ import annotations
+
 import re
 
 CEP_REGEX = re.compile(r"^\d{8}$")
