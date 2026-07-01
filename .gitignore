@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Artefatos gerados pelo pipeline
+cnefe_sample_pb.csv
+cnefe_sample*.csv
+dataset_experimental*.csv
+resultado_comparativo.csv
+
+# LaTeX (pasta paper/)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.synctex.gz
+paper/*.pdf
